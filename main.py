@@ -59,7 +59,7 @@ for i, quiz in enumerate(questions, start=1):
 
     # ❓ Display the question number and question
     print(f"\n{i}- {question}")
-    print(divider)
+    print(divider) # 🎨 Visual divider
 
     # 🔁 Keep asking until the user enters a valid answer
     while True:
@@ -79,7 +79,7 @@ for i, quiz in enumerate(questions, start=1):
 
         # ⚠️ Invalid input
         print("⚠️ Invalid choice! Please choose A, B, C, or D.")
-        print(divider) # 🎨 Visual divider
+        print(divider)
         time.sleep(0.6)
 
     # 🎯 Check if the answer is correct
